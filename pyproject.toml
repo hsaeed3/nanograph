@@ -18,6 +18,7 @@ requires-python = ">=3.9"
 dependencies = [
     "litellm>=1.54.1",
     "loguru>=0.7.3",
+    "networkx>=3.2.1",
 ]
 
 
