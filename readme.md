@@ -1,3 +1,4 @@
 # ⿻ | nanograph
 
-> extremely fun & simple graph based generative ai tools for python
+> extremely fun & simple __foundational__ graph based generative ai tools for python
+
