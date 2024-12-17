@@ -16,8 +16,8 @@ requires-python = ">=3.9"
 
 # ** package dependencies **
 dependencies = [
-    "instructor>=1.7.0",
     "litellm>=1.54.1",
+    "loguru>=0.7.3",
 ]
 
 
