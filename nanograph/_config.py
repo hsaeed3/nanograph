@@ -13,9 +13,9 @@ nanograph_verbose = False
 # Flag to track if configuration has been ensured
 _config_ensured = False
 
+
 # ensure nanograph cache directory exists
 def validate_nanograph_cache_dir():
-
     cache_dir = os.path.expanduser("~/.cache/nanograph")
     log_file = os.path.join(cache_dir, "logs.log")
 
@@ -38,6 +38,7 @@ def ensure_nanograph_config():
         if nanograph_verbose:
             logger.info("`nanograph` configuration initialized successfully")
         _config_ensured = True
+
 
 # Ensure configuration on import
 ensure_nanograph_config()

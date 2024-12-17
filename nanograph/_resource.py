@@ -28,6 +28,7 @@ _resource_instance: _LiteLLMResource | None = None
 # LiteLLM Client Resource
 # ------------------------------------------------------------
 
+
 class _LiteLLMResource:
     """
     Internal LiteLLM client resource wrapper.
@@ -82,9 +83,7 @@ def get_resource() -> _LiteLLMResource:
     return _resource_instance
 
 
-
 if __name__ == "__main__":
-
     get_resource()
 
     nanograph_verbose = True
