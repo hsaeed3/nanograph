@@ -22,6 +22,13 @@ dependencies = [
 ]
 
 
+# ** optional dependencies **
+[project.optional-dependencies]
+docs = [
+    "markitdown>=0.0.1a1",
+]
+
+
 # ** extra dependency groups **
 [dependency-groups]
 # ** dev tools **
