@@ -1,3 +1,6 @@
+"""
+base litellm resource tests
+"""
 
 import pytest
 from nanograph import _resource as resource
